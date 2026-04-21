@@ -1,0 +1,8 @@
+1. install github 3.11, make sure add to path is not selected. https://www.python.org/ftp/python/3.11.0/python-3.11.0-amd64.exe
+2. create a folder called eye in desktop, and download dataset from https://www.kaggle.com/datasets/kutaykutlu/drowsiness-detection?resource=download unzip it and put the archive folder in eye folder
+3. cd to eye in cmd
+4. paste this in cmd python -m venv eye_env
+and then eye_env\Scripts\activate
+5. pip install tensorflow mediapipe opencv-python numpy scikit-learn
+6. python train.py
+7. python main.py
